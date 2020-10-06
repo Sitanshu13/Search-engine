@@ -15,7 +15,7 @@ def searcherWiki(wikiSearch):
 def searcherGoogle(googleSearch):
     speaker = pyttsx3.init()
     print(' ')
-    speaker.say('These are the websites which have the information related to your search: ')
+    speaker.say('These are the websites that came according to your search')
     print(search(questionGoogle))
     speaker.runAndWait()
 
